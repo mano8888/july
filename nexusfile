@@ -1,0 +1,10 @@
+deploy:deployingfile
+
+-DgroupId=com.month
+-DartifactId=month
+-Dversion=1.0-SNAPSHOT
+-Dpackage=war
+-Drepository=nexus
+-DgeneratePom=false
+-Durl=https://nexus-tb.com.month/repository/somepro
+-Dfile=1.0-SNAPSHOT.war
